@@ -58,7 +58,7 @@ else
     echo "Something is wrong in valid_26minos"
 fi
 
-var_JCC_3="$(../fillit test_file_with_all_tetris)"
+var_all_minos="$(../fillit test_file_with_all_tetris)"
 
 if [[ $var_all_minos =~ "ABBBBCD..
 AEEG.CDDD
