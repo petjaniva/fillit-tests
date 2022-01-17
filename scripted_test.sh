@@ -57,3 +57,19 @@ X..UUVV...Z" ]]; then
 else
     echo "Something is wrong in valid_26minos"
 fi
+
+var_JCC_3="$(../fillit test_file_with_all_tetris)"
+
+if [[ $var_all_minos =~ "ABBBBCD..
+AEEG.CDDD
+AE.GCCFFF
+AEPGGOOOF
+NPPJJJOII
+NNPJHKK.I
+NSHHHKKMI
+SSLLQRRMM
+SLLQQQRRM" ]]; then
+    echo "All good"
+else
+    echo "Something is wrong in test_file_with_all_tetris"
+fi
